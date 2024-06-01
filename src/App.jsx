@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './components/Home'
-import NavRoutes from './components/NavRoutes'
+
 import { Link } from 'react-router-dom'
 import { contactContext } from './components/ContactProvider'
 import Count from './components/Count'
@@ -28,7 +28,9 @@ function App() {
  <button onClick={homeRend}disabled={add}>Back</button>
  
   {!change ? <Home/>:<Add/>}
-  
+  <div style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
+ <Count/>
+ </div>
  </>)
 }
 

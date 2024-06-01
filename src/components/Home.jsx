@@ -42,9 +42,7 @@ const Home = () => {
     
 
 
-<div style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
- <Count/>
- </div>
+
       
       
     </div>
